@@ -6,6 +6,6 @@
 		{
 		}
 
-		public AddToCartItem Item { get; set; }
+		public AddToCartArticle Item { get; set; }
 	}
 }

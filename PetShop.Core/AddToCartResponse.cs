@@ -2,6 +2,6 @@
 {
 	public class AddToCartResponse
 	{
-		public AddToCartItem[] Items { get; set; }
+		public AddToCartArticle[] Items { get; set; }
 	}
 }

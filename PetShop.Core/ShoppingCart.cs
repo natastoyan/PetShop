@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace PetShop.Core
 {
-	public interface IShopingCartManager
+	public class ShoppingCart
 	{
-		public AddToCartResponse AddToCart(AddToCartRequest request);
-
-		public IEnumerable<AddToCartArticle> GetCart();
 	}
 }
